@@ -1,0 +1,27 @@
+:root{
+    --color-1: #DBACA0;
+    --color-2: #FFFFFF;
+    --color-3: #FF899C;
+}
+
+
+@font-face {
+    font-family: "Inder-Regular";
+    src: url(../storage/font/Inder/Inder-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Lelezar-Regular";
+    src: url(..src/storage/Lelezar/Lelezar-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Inder-Bold";
+    src: url(..src/storage/font/inder/inder-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Inder-SemiBold";
+    src: url(..src/storage/font/inter/inder-semibold.ttf);
+}
