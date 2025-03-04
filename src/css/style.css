@@ -116,11 +116,51 @@ body {
 .div_info {
     grid-area: info;
     margin-top: 20px;
+    text-align: left;
     /* background: orange; */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+}
+
+.div_info h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--color-2);
+}
+
+.div_info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.div_info p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.div_info span {
+    font-size: 32px;
+    color: var(--color-2);
+}
+
+.div_info a {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--color-3);
+    color: var(--color-2);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.div_info a:hover {
+    background-color: darken(var(--color-3), 10%);
 }
 
 .div_content {
